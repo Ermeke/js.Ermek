@@ -1,0 +1,29 @@
+.wrapperBlock {
+    width: 560px;
+    height: 560px;
+    margin-left: 400px;
+    margin-top: 40px;
+    border: 2px solid rgb(13, 13, 14);
+    background-color: rgb(5, 110, 247);
+    position: relative;
+ }
+ .mainblock {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(253, 5, 9);
+    /* border-radius: 50%; */
+    background-image: url("images/dinpo.png");
+    background-size: 100px 99px;
+ }
+ #start{
+    margin-left: 620px;
+    margin-top: 30px;
+    background-color: green;
+    box-shadow: 30px green;
+ }
+ #stop{
+
+    background-color:red;
+    box-shadow: 30px blue;
+ }
